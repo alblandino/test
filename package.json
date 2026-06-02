@@ -1,0 +1,21 @@
+{
+  "name": "compras-dominicanas-scraper-backend",
+  "version": "1.0.0",
+  "description": "Backend API and Scraping Engine",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "cron": "node cron_scraper.js",
+    "cron-dev": "nodemon cron_scraper.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
